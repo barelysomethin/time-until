@@ -177,5 +177,36 @@ border-bottom: 2px solid black;
 .customdiv{
   color: rgb(255, 229, 221);
 }
+.author{
+  color: rgb(0, 0, 0);
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+.author:hover{
+  color: rgb(255, 255, 255);
+fill: white;
 
+}
+.author svg{
+  position: absolute;
+  bottom: -2px;
+  left: -28px;
+}
 
+/* .authorname{
+  position: absolute;
+  bottom: -7px;
+left: -28px;
+
+}
+.authorname:hover{
+ fill: white;
+}
+.author:hover.authorname{
+  color: white;
+} */
