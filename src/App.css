@@ -176,6 +176,7 @@ border-bottom: 2px solid black;
 
 .customdiv{
   color: rgb(255, 229, 221);
+ margin-top: 5px;
 }
 .author{
   color: rgb(0, 0, 0);
@@ -198,15 +199,3 @@ fill: white;
   left: -28px;
 }
 
-/* .authorname{
-  position: absolute;
-  bottom: -7px;
-left: -28px;
-
-}
-.authorname:hover{
- fill: white;
-}
-.author:hover.authorname{
-  color: white;
-} */
