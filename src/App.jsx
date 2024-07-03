@@ -19,7 +19,7 @@ const Countdown = () => {
   let totaltime = 0;
   let progressWidth = 0;
 
-  if (endtime) {
+  if (endtime && endtime.getTime()>starttime.getTime()) {
     timeremaining = new Date(endtime).getTime() - currenttime.getTime();
     totaltime = new Date(endtime).getTime() - starttime.getTime();
     progressWidth = (timeremaining / totaltime) * 100;

@@ -13,8 +13,7 @@ body {
   background-color: #292323;
   background-size: cover;
   background-position: center;
-  /* background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+
 
 }
 
@@ -167,7 +166,7 @@ border-bottom: 2px solid black;
 }
 
 .span {
-  color: #ffdfd1;
+  color: #faf5f2;
   margin-top: -20px;
   position: absolute;
   left: 80px;
@@ -200,13 +199,128 @@ fill: white;
 }
 
 @media(max-width:768px){
-  .container{transform: scale(0.8);
+  .container{
+   
+    width: 260px;
+    height: 200px;
+   
     }
-  
-}
+
+    .goalName{
+      margin-top: 5px;
+      color: #ffffff;
+      font-family: Verdana, Tahoma, sans-serif;
+      position: absolute;
+      bottom: 110px;
+      left: 65px;
+     overflow: hidden;
+      max-width: 50%;
+      max-height: 35%;
+     font-size: medium;
+      word-wrap: normal;
+      overflow-wrap: normal;
+      white-space: normal;
+      text-align: center;
+
+    }
+    .customdiv{
+      font-size: small;
+    }
+
+    .editButton{
+      position: absolute;
+      top: 20px;
+      right: 10px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      color: blanchedalmond;
+      opacity: 80%;
+      transform: scale(0.8);
+    }
+   
+
+    
+    .editButton:hover { 
+      opacity: 100%;
+    
+    }
+
+    .hourglass{
+      position: absolute;
+      fill: rgb(255, 255, 255);
+      bottom: -7px;
+      left: 70px;
+    }
+    
+    .progressbarback {
+    
+      width: 80%;
+      margin: 0 auto;
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 20px;
+      border-radius: 20px;
+      bottom: 30px;
+      left: 0;
+      right: 0;
+    }
+    
+    .progressBar {
+      background-color: #ffdfd1;
+      height: 18.5px;
+      border-radius: 20px;
+      margin-top: 0.5px;
+    }
+    
+    .timeLeft {
+      color: rgb(255, 255, 255);
+      position: absolute;
+      bottom: 60px;
+      left: 0;
+      right: 0;
+    }
+   
+    .inputGoalname{
+      margin-top: 30px;
+    }
+    .inputGoaldate{
+ left: 30px;
+ margin-top: 30px;
+    }
+   .span{
+    bottom: 20px;
+    left: 18px;
+   }
+     .enddate{
+      bottom: 18px;
+      left: 110px;
+     }
+     .author{
+      color: rgb(0, 0, 0);
+      position: absolute;
+      bottom: 30px;
+      right: 100px;
+      text-decoration: none;
+      font-size: larger;
+      font-weight: 400;
+      font-family: Arial, Helvetica, sans-serif ;
+    }
+    .author:hover{
+      color: rgb(255, 255, 255);
+    fill: white;
+    
+    }
+    .author svg{
+      position: absolute;
+      bottom: -2px;
+      left: -28px;
+    }
+    }
 
 
-@media (max-width: 600px) {
+
+
+/* @media (max-width: 600px) {
   .author{
       display: none;
   }
@@ -222,5 +336,5 @@ fill: white;
 }
 @media(max-width:300px){
   .container{transform: scale(0.4);}
-}
+} */
 
