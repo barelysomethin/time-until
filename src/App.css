@@ -7,7 +7,7 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
- 
+ overflow-x: hidden;
   min-height: 100vh;
   min-width: 100vw;
   background-color: #292323;
@@ -199,6 +199,12 @@ fill: white;
   left: -28px;
 }
 
+@media(max-width:768px){
+  .container{transform: scale(0.8);
+    }
+  
+}
+
 
 @media (max-width: 600px) {
   .author{
@@ -207,7 +213,7 @@ fill: white;
   .container{
   
      
-          transform: scale(0.8)
+          transform: scale(0.7)
   }
 }
 @media (max-width: 400px){
