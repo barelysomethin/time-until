@@ -8,4 +8,4 @@ written in react+vite. <br>
 ![time-until editboard final](https://github.com/barelysomethin/time-until/assets/132691959/1b973832-85b2-4478-9665-a413ced6c43b)
 
 <br>
-contributions are welcome
+contributions are welcome...
